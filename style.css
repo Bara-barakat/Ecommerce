@@ -1,0 +1,436 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #e3e6f3;
+}
+
+nav h1{
+    font-size: 70px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 6px;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 0 8px;
+    color: #05756ef2;
+    font-size: larger;
+    font-family:cursive;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid #088178;
+}
+
+
+.body{
+    padding-top: 20px;
+    height: 42vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.body0{
+    background-color: #e3e6f3;
+    height: 38vh;
+    width: 820px;
+    opacity: .8;
+    border-radius: 50%;
+    margin: 1vh 20vh 0;
+    z-index: 1;
+
+}
+
+.body1{
+    display: flex;
+    height: 20vh;
+
+}
+
+.body0 h2 {
+    color: crimson;
+    font-size: 60px;
+    margin: 7vh 20vh 0;
+}
+
+.body0 span{
+    color: #088178;
+    display: block;
+}
+
+.body0 h3{
+    font-size: x-large;
+    margin: 1vh 20vh 0;
+    color: black;
+}
+
+.body0 button{
+    margin: 6vh 20vh 0;
+    background-color:#3ddfd4ef;
+    border: none;
+    cursor: pointer;
+    font-size: x-large;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.body0 button:hover{
+    background-color: #0c8880f0;
+}
+
+.body1 img{
+    height: 60vh;
+    width: 174vh;
+    position: absolute;
+    left: 240px;
+    opacity: .8;
+
+}
+
+.co {
+    height: 20vh;
+    margin-top: 20vh;
+}
+
+.coun {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.h{
+    background-image: url(images/button.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 7vh;
+    font-size: xx-large;
+    
+}
+
+.h h2, h4{
+    padding: 7px;
+}
+
+.fu{
+    display: grid;
+    gap: 2vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+.cn{
+    border: 1px solid #ebebeb;
+    border-radius: 20px;
+    height: max-content;
+    width: max-content;
+    margin: 2vh auto;
+}
+
+.cn img{
+    height: 47vh;
+    border-radius: 20px 20px 0 0 ;
+}
+
+.cn span{
+    color: #088178;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.serv{
+    background-image: url(images/b2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.serv h2{
+    color: wheat;
+    font-size: 70px;
+    padding: 26px 0;
+}
+
+.serv button{
+    background-color:#3ddfd4ef;
+    border: none;
+    cursor: pointer;
+    font-size: x-large;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.nf{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.fo{
+    background-image: url(images/b17.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 40vh;
+    width: 70vh;
+    padding-top: 40px;
+}
+
+.fo h2, h3{
+    color: white;
+    margin:  10px 0 0 20px;
+}
+
+.fo h2{
+    font-size: 44px;
+}
+
+.fo button{
+    background-color: inherit;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+}
+
+.fo2{
+    background-image: url(images/b10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 40vh;
+    width: 70vh;
+    padding-top: 40px;
+}
+
+.fo2 h2, h3{
+    color: white;
+    margin:  10px 0 0 20px;
+}
+
+.fo2 h2{
+    font-size: 44px;
+}
+
+.fo2 button{
+    background-color: inherit;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+}
+
+.nf button:hover{
+    background-color: #088178;
+}
+
+.s{
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.s h2{
+    padding:0 10px;
+    color: white;
+}
+
+.s input, button{
+    border: none;
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 4px;
+    border-radius: 12px;
+    outline: none;
+    margin:0 10px 0 0;
+}
+
+.s button{
+    background-color: #088178;
+    cursor: pointer;
+}
+
+.i{
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 10vh;
+    align-items: center;
+    text-align: center;
+}
+
+.i h4{
+    color: white;
+}
+
+
+@media only screen and (max-width: 650px) {
+
+    nav a {
+        font-size: small;
+    }
+
+    .body img{
+        display: none;
+    }
+
+    .body0{
+        height: 30vh;
+    }
+
+    .body0 h2{
+        font-size: 38px;
+        margin: 4vh 7vh 0;
+    }
+
+    .body0 h3{
+        margin: 0 0 0 14px;
+    }
+
+    .co {
+        margin: 0;
+    }
+
+    .h {
+        background-image: none;
+        padding-top: 70px;
+        height: 18vh;        
+    }
+
+    .fu {
+        grid-template-columns: 1fr;
+    }
+
+    .serv h2{
+        font-size: xx-large;
+    }
+}
+
+
+
+@media only screen and (min-width: 651px) and (max-width: 800px) {
+
+    nav a {
+        font-size:larger
+    }
+
+    .body img{
+        display: none;
+    }
+
+    .body0{
+        height: 30vh;
+    }
+
+    .body0 h2{
+        font-size: 38px;
+        margin: 4vh 7vh 0;
+    }
+
+    .body0 h3{
+        margin: 0 0 0 14px;
+    }
+
+    .co {
+        margin: 0;
+    }
+
+    .h {
+        background-image: none;
+        padding-top: 70px;
+        height: 18vh;        
+    }
+
+    .fu {
+        grid-template-columns: 1fr;
+    }
+
+    .serv h2{
+        font-size: xx-large;
+    }
+}
+
+
+
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+
+    nav a {
+        font-size:larger
+    }
+
+    .body img{
+        display: none;
+    }
+
+    .body0{
+        height: 30vh;
+    }
+
+    .body0 h2{
+        font-size: 40px;
+        margin: 4vh 7vh 0;
+    }
+
+    .body0 h3{
+        margin: 0 0 0 60px;
+    }
+
+    .co {
+        margin: 0;
+    }
+
+    .h {
+        background-image: none;
+        padding-top: 70px;
+        height: 18vh;        
+    }
+
+    .fu {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .serv h2{
+        font-size: xx-large;
+    }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1199px) {
+    .body img{
+        display: none;
+    }
+    .fu {
+        grid-template-columns: 1fr 1fr;
+    }
+}
